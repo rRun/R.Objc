@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA1409D71EA70F8200EC8CAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1409D61EA70F8200EC8CAD /* main.m */; };
+		EA1409DF1EA70FCC00EC8CAD /* XcodeProj.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1409DE1EA70FCC00EC8CAD /* XcodeProj.m */; };
+		EA1409F41EA75C3E00EC8CAD /* ClassGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1409F31EA75C3E00EC8CAD /* ClassGenerator.m */; };
+		EA140A0E1EADA3E000EC8CAD /* PJDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = EA140A0D1EADA3E000EC8CAD /* PJDictionary.m */; };
+		EA140A6F1EBAC5BC00EC8CAD /* ResourcesGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA140A6E1EBAC5BC00EC8CAD /* ResourcesGenerator.m */; };
+		EA140A721EBACA3600EC8CAD /* Property.m in Sources */ = {isa = PBXBuildFile; fileRef = EA140A711EBACA3600EC8CAD /* Property.m */; };
+		EA140A751EBACAD300EC8CAD /* ImageProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EA140A741EBACAD300EC8CAD /* ImageProperty.m */; };
+		EA140A781EBAD32F00EC8CAD /* ImagesProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EA140A771EBAD32F00EC8CAD /* ImagesProperty.m */; };
+		EA140A7B1EBAD39800EC8CAD /* ClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EA140A7A1EBAD39800EC8CAD /* ClassProperty.m */; };
+		EA140A7E1EBAD43C00EC8CAD /* PathsProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EA140A7D1EBAD43C00EC8CAD /* PathsProperty.m */; };
+		EA140A841EBAD49A00EC8CAD /* StringKeysProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EA140A831EBAD49A00EC8CAD /* StringKeysProperty.m */; };
+		EA140A871EBAD4FB00EC8CAD /* PathProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EA140A861EBAD4FB00EC8CAD /* PathProperty.m */; };
+		EA140A8A1EBB069500EC8CAD /* NSString+R.m in Sources */ = {isa = PBXBuildFile; fileRef = EA140A891EBB069500EC8CAD /* NSString+R.m */; };
+		EA140A8D1EBB10A400EC8CAD /* XCodeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EA140A8C1EBB10A400EC8CAD /* XCodeNode.m */; };
+		EA140A901EBB10EC00EC8CAD /* XCodeGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = EA140A8F1EBB10EC00EC8CAD /* XCodeGroup.m */; };
+		EA140A931EBB142900EC8CAD /* XcodeFile.m in Sources */ = {isa = PBXBuildFile; fileRef = EA140A921EBB142900EC8CAD /* XcodeFile.m */; };
+		EA140A961EBB147B00EC8CAD /* PJFile.m in Sources */ = {isa = PBXBuildFile; fileRef = EA140A951EBB147B00EC8CAD /* PJFile.m */; };
+		EA140A9C1EBB195800EC8CAD /* NSCharacterSet+R.m in Sources */ = {isa = PBXBuildFile; fileRef = EA140A9B1EBB195800EC8CAD /* NSCharacterSet+R.m */; };
+		EA140A9F1EBB1C1D00EC8CAD /* CPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = EA140A9E1EBB1C1D00EC8CAD /* CPrint.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA1409D11EA70F8200EC8CAD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EA1409D31EA70F8200EC8CAD /* R.Objc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = R.Objc; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1409D61EA70F8200EC8CAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA1409DD1EA70FCC00EC8CAD /* XcodeProj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeProj.h; sourceTree = "<group>"; };
+		EA1409DE1EA70FCC00EC8CAD /* XcodeProj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XcodeProj.m; sourceTree = "<group>"; };
+		EA1409F21EA75C3E00EC8CAD /* ClassGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassGenerator.h; sourceTree = "<group>"; };
+		EA1409F31EA75C3E00EC8CAD /* ClassGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassGenerator.m; sourceTree = "<group>"; };
+		EA140A0C1EADA3E000EC8CAD /* PJDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJDictionary.h; sourceTree = "<group>"; };
+		EA140A0D1EADA3E000EC8CAD /* PJDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJDictionary.m; sourceTree = "<group>"; };
+		EA140A6D1EBAC5BC00EC8CAD /* ResourcesGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourcesGenerator.h; sourceTree = "<group>"; };
+		EA140A6E1EBAC5BC00EC8CAD /* ResourcesGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourcesGenerator.m; sourceTree = "<group>"; };
+		EA140A701EBACA3500EC8CAD /* Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Property.h; sourceTree = "<group>"; };
+		EA140A711EBACA3600EC8CAD /* Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Property.m; sourceTree = "<group>"; };
+		EA140A731EBACAD300EC8CAD /* ImageProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProperty.h; sourceTree = "<group>"; };
+		EA140A741EBACAD300EC8CAD /* ImageProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageProperty.m; sourceTree = "<group>"; };
+		EA140A761EBAD32F00EC8CAD /* ImagesProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesProperty.h; sourceTree = "<group>"; };
+		EA140A771EBAD32F00EC8CAD /* ImagesProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesProperty.m; sourceTree = "<group>"; };
+		EA140A791EBAD39800EC8CAD /* ClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassProperty.h; sourceTree = "<group>"; };
+		EA140A7A1EBAD39800EC8CAD /* ClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassProperty.m; sourceTree = "<group>"; };
+		EA140A7C1EBAD43C00EC8CAD /* PathsProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathsProperty.h; sourceTree = "<group>"; };
+		EA140A7D1EBAD43C00EC8CAD /* PathsProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathsProperty.m; sourceTree = "<group>"; };
+		EA140A821EBAD49A00EC8CAD /* StringKeysProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringKeysProperty.h; sourceTree = "<group>"; };
+		EA140A831EBAD49A00EC8CAD /* StringKeysProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringKeysProperty.m; sourceTree = "<group>"; };
+		EA140A851EBAD4FB00EC8CAD /* PathProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathProperty.h; sourceTree = "<group>"; };
+		EA140A861EBAD4FB00EC8CAD /* PathProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathProperty.m; sourceTree = "<group>"; };
+		EA140A881EBB069500EC8CAD /* NSString+R.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+R.h"; sourceTree = "<group>"; };
+		EA140A891EBB069500EC8CAD /* NSString+R.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+R.m"; sourceTree = "<group>"; };
+		EA140A8B1EBB10A400EC8CAD /* XCodeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCodeNode.h; sourceTree = "<group>"; };
+		EA140A8C1EBB10A400EC8CAD /* XCodeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCodeNode.m; sourceTree = "<group>"; };
+		EA140A8E1EBB10EC00EC8CAD /* XCodeGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCodeGroup.h; sourceTree = "<group>"; };
+		EA140A8F1EBB10EC00EC8CAD /* XCodeGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCodeGroup.m; sourceTree = "<group>"; };
+		EA140A911EBB142900EC8CAD /* XcodeFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeFile.h; sourceTree = "<group>"; };
+		EA140A921EBB142900EC8CAD /* XcodeFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XcodeFile.m; sourceTree = "<group>"; };
+		EA140A941EBB147B00EC8CAD /* PJFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJFile.h; sourceTree = "<group>"; };
+		EA140A951EBB147B00EC8CAD /* PJFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJFile.m; sourceTree = "<group>"; };
+		EA140A9A1EBB195800EC8CAD /* NSCharacterSet+R.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCharacterSet+R.h"; sourceTree = "<group>"; };
+		EA140A9B1EBB195800EC8CAD /* NSCharacterSet+R.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCharacterSet+R.m"; sourceTree = "<group>"; };
+		EA140A9D1EBB1C1D00EC8CAD /* CPrint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPrint.h; sourceTree = "<group>"; };
+		EA140A9E1EBB1C1D00EC8CAD /* CPrint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPrint.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA1409D01EA70F8200EC8CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA1409CA1EA70F8200EC8CAD = {
+			isa = PBXGroup;
+			children = (
+				EA1409D51EA70F8200EC8CAD /* R.Objc */,
+				EA1409D41EA70F8200EC8CAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA1409D41EA70F8200EC8CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA1409D31EA70F8200EC8CAD /* R.Objc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA1409D51EA70F8200EC8CAD /* R.Objc */ = {
+			isa = PBXGroup;
+			children = (
+				EA140A051EA85AAF00EC8CAD /* Tools */,
+				EA140A041EA852BD00EC8CAD /* Model */,
+				EA1409D61EA70F8200EC8CAD /* main.m */,
+				EA140A6D1EBAC5BC00EC8CAD /* ResourcesGenerator.h */,
+				EA140A6E1EBAC5BC00EC8CAD /* ResourcesGenerator.m */,
+				EA1409F21EA75C3E00EC8CAD /* ClassGenerator.h */,
+				EA1409F31EA75C3E00EC8CAD /* ClassGenerator.m */,
+			);
+			path = R.Objc;
+			sourceTree = "<group>";
+		};
+		EA140A041EA852BD00EC8CAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA1409DD1EA70FCC00EC8CAD /* XcodeProj.h */,
+				EA1409DE1EA70FCC00EC8CAD /* XcodeProj.m */,
+				EA140A941EBB147B00EC8CAD /* PJFile.h */,
+				EA140A951EBB147B00EC8CAD /* PJFile.m */,
+				EA140A8B1EBB10A400EC8CAD /* XCodeNode.h */,
+				EA140A8C1EBB10A400EC8CAD /* XCodeNode.m */,
+				EA140A8E1EBB10EC00EC8CAD /* XCodeGroup.h */,
+				EA140A8F1EBB10EC00EC8CAD /* XCodeGroup.m */,
+				EA140A911EBB142900EC8CAD /* XcodeFile.h */,
+				EA140A921EBB142900EC8CAD /* XcodeFile.m */,
+				EA140A701EBACA3500EC8CAD /* Property.h */,
+				EA140A711EBACA3600EC8CAD /* Property.m */,
+				EA140A791EBAD39800EC8CAD /* ClassProperty.h */,
+				EA140A7A1EBAD39800EC8CAD /* ClassProperty.m */,
+				EA140A731EBACAD300EC8CAD /* ImageProperty.h */,
+				EA140A741EBACAD300EC8CAD /* ImageProperty.m */,
+				EA140A761EBAD32F00EC8CAD /* ImagesProperty.h */,
+				EA140A771EBAD32F00EC8CAD /* ImagesProperty.m */,
+				EA140A851EBAD4FB00EC8CAD /* PathProperty.h */,
+				EA140A861EBAD4FB00EC8CAD /* PathProperty.m */,
+				EA140A7C1EBAD43C00EC8CAD /* PathsProperty.h */,
+				EA140A7D1EBAD43C00EC8CAD /* PathsProperty.m */,
+				EA140A821EBAD49A00EC8CAD /* StringKeysProperty.h */,
+				EA140A831EBAD49A00EC8CAD /* StringKeysProperty.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EA140A051EA85AAF00EC8CAD /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				EA140A9D1EBB1C1D00EC8CAD /* CPrint.h */,
+				EA140A9E1EBB1C1D00EC8CAD /* CPrint.m */,
+				EA140A0C1EADA3E000EC8CAD /* PJDictionary.h */,
+				EA140A0D1EADA3E000EC8CAD /* PJDictionary.m */,
+				EA140A881EBB069500EC8CAD /* NSString+R.h */,
+				EA140A891EBB069500EC8CAD /* NSString+R.m */,
+				EA140A9A1EBB195800EC8CAD /* NSCharacterSet+R.h */,
+				EA140A9B1EBB195800EC8CAD /* NSCharacterSet+R.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA1409D21EA70F8200EC8CAD /* R.Objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1409DA1EA70F8200EC8CAD /* Build configuration list for PBXNativeTarget "R.Objc" */;
+			buildPhases = (
+				EA1409CF1EA70F8200EC8CAD /* Sources */,
+				EA1409D01EA70F8200EC8CAD /* Frameworks */,
+				EA1409D11EA70F8200EC8CAD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = R.Objc;
+			productName = R.Objc;
+			productReference = EA1409D31EA70F8200EC8CAD /* R.Objc */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA1409CB1EA70F8200EC8CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "何霞雨";
+				TargetAttributes = {
+					EA1409D21EA70F8200EC8CAD = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = EA1409CE1EA70F8200EC8CAD /* Build configuration list for PBXProject "R.Objc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA1409CA1EA70F8200EC8CAD;
+			productRefGroup = EA1409D41EA70F8200EC8CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA1409D21EA70F8200EC8CAD /* R.Objc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA1409CF1EA70F8200EC8CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1409F41EA75C3E00EC8CAD /* ClassGenerator.m in Sources */,
+				EA140A8D1EBB10A400EC8CAD /* XCodeNode.m in Sources */,
+				EA140A7E1EBAD43C00EC8CAD /* PathsProperty.m in Sources */,
+				EA1409DF1EA70FCC00EC8CAD /* XcodeProj.m in Sources */,
+				EA140A841EBAD49A00EC8CAD /* StringKeysProperty.m in Sources */,
+				EA140A751EBACAD300EC8CAD /* ImageProperty.m in Sources */,
+				EA140A781EBAD32F00EC8CAD /* ImagesProperty.m in Sources */,
+				EA140A901EBB10EC00EC8CAD /* XCodeGroup.m in Sources */,
+				EA140A9C1EBB195800EC8CAD /* NSCharacterSet+R.m in Sources */,
+				EA140A6F1EBAC5BC00EC8CAD /* ResourcesGenerator.m in Sources */,
+				EA140A931EBB142900EC8CAD /* XcodeFile.m in Sources */,
+				EA140A9F1EBB1C1D00EC8CAD /* CPrint.m in Sources */,
+				EA140A721EBACA3600EC8CAD /* Property.m in Sources */,
+				EA140A961EBB147B00EC8CAD /* PJFile.m in Sources */,
+				EA140A8A1EBB069500EC8CAD /* NSString+R.m in Sources */,
+				EA140A7B1EBAD39800EC8CAD /* ClassProperty.m in Sources */,
+				EA1409D71EA70F8200EC8CAD /* main.m in Sources */,
+				EA140A871EBAD4FB00EC8CAD /* PathProperty.m in Sources */,
+				EA140A0E1EADA3E000EC8CAD /* PJDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA1409D81EA70F8200EC8CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EA1409D91EA70F8200EC8CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EA1409DB1EA70F8200EC8CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEVELOPMENT_TEAM = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		EA1409DC1EA70F8200EC8CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEVELOPMENT_TEAM = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA1409CE1EA70F8200EC8CAD /* Build configuration list for PBXProject "R.Objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1409D81EA70F8200EC8CAD /* Debug */,
+				EA1409D91EA70F8200EC8CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1409DA1EA70F8200EC8CAD /* Build configuration list for PBXNativeTarget "R.Objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1409DB1EA70F8200EC8CAD /* Debug */,
+				EA1409DC1EA70F8200EC8CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA1409CB1EA70F8200EC8CAD /* Project object */;
+}
