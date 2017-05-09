@@ -15,11 +15,11 @@
 @implementation StringKeysProperty
 
 - (NSString *)headerProlog:(ResourcesGenerator *)generator {
-    return [NSString stringWithFormat:@"%@ *strings;\n", self.className];
+    return [NSString stringWithFormat:@"%@ *S;\n", self.className];
 }
 
 - (NSString *)implementationProlog:(ResourcesGenerator *)generator {
-    return [NSString stringWithFormat:@"%@ *strings;\n", self.className];
+    return [NSString stringWithFormat:@"%@ *S;\n", self.className];
 }
 
 - (void)generate:(ClassGenerator *)classGenerator
@@ -30,7 +30,7 @@
                                                           signature:@"+ (void)load"];
         [loadMethod
          addLineIndent:1
-         format:@"rStrings = [[%@ alloc] init];", self.className];
+         format:@"S = [[%@ alloc] init];", self.className];
     }
     
     MethodGenerator *initMethod = [classGenerator addMethodName:@"1init"

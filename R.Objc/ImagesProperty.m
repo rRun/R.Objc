@@ -17,7 +17,7 @@
 @implementation ImagesProperty
 
 - (NSString *)headerProlog:(ResourcesGenerator *)generator {
-    return [NSString stringWithFormat:@"%@ *images;\n", self.className];
+    return [NSString stringWithFormat:@"%@ *I;\n", self.className];
 }
 
 - (NSString *)implementationProlog:(ResourcesGenerator *)generator {
@@ -69,7 +69,7 @@
     [iMethod addLineIndent:1 format:@"return [UIImage imageNamed:path];"];
     
     [s appendFormat:@"%@\n", iMethod];
-    [s appendFormat:@"%@ *rImages;\n", self.className];
+    [s appendFormat:@"%@ *I;\n", self.className];
     
     return s;
 }
@@ -84,7 +84,7 @@
                                                           signature:@"+ (void)load"];
         [loadMethod
          addLineIndent:1
-         format:@"rImages = [[%@ alloc] init];", self.className];
+         format:@"I = [[%@ alloc] init];", self.className];
     }
     
     if ([self countPropertiesOfClass:[self class]] > 0) {

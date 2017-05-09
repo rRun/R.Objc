@@ -34,4 +34,5 @@
 - (void)forEachPropertyOfClass:(Class)cls
                          block:(void (^)(Property *property))block;
 - (ClassProperty *)lookupPropertyPathFromDir:(NSArray *)dirComponents;
+
 @end

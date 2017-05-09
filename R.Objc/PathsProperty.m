@@ -45,7 +45,7 @@
     return [NSString stringWithFormat:
             @"%@"
             @"\n"
-            @"%@ *paths;\n",
+            @"%@ *P;\n",
             [[[self class] descriptionStringClass] header],
             self.className];
 }
@@ -64,7 +64,7 @@
             @"\n"
             @"%@"
             @"\n"
-            @"%@ *rPaths;\n",
+            @"%@ *P;\n",
             pMethod,
             [[[self class] descriptionStringClass] implementation],
             self.className];
@@ -83,7 +83,7 @@
                                                           signature:@"+ (void)load"];
         [loadMethod
          addLineIndent:1
-         format:@"rPaths = [[%@ alloc] init];", self.className];
+         format:@"P = [[%@ alloc] init];", self.className];
     }
     
     if ([self countPropertiesOfClass:[self class]] > 0) {
